@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2534/2534248.png">
   <title>Manuja Dimantha</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
+  overflow-x: hidden;
       background-color: #0f0f0f;
-      color: white;
+      color: rgb(214, 214, 214);
       font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
 
+    h1 {
+      color: rgb(228, 226, 226);
+    }
+
     header {
       width: 100%;
       background: #111;
       padding: 10px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     nav {
@@ -28,25 +35,31 @@
       justify-content: space-between;
       align-items: center;
       max-width: 1000px;
-      margin: auto;
+      margin-left: 15px;
+      margin-right: auto;
+
+
     }
 
     .header-logo img {
-      height: 60px;
-      border-radius: 50%;
-    }
+  width: 50px;         /* or any size you prefer */
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 
     .index {
       margin-top: 40px;
     }
 
     .card {
-      background-color: #1a1a1a;
+      background-color: rgb(15, 0, 34);
       padding: 30px;
       border-radius: 20px;
       text-align: center;
       max-width: 400px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
     }
 
     .card img {
@@ -54,7 +67,7 @@
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid #444;
+      border: 4px solid #8a89cf;
     }
 
     .card-text {
@@ -63,7 +76,7 @@
 
     .card-text h1 {
       margin: 10px 0;
-      font-size: 28px;
+      font-size: 40px;
     }
 
     .card-links ul {
@@ -77,25 +90,36 @@
 
     .card-links li a {
       font-size: 22px;
-      color: white;
+      color: rgb(156 163 175)
+
+;
       transition: color 0.3s;
     }
 
     .card-links li a:hover {
-      color: #00ffff;
+      color: #ffffff;
     }
   </style>
 </head>
+
 <body>
 
   <!-- Optional hidden div -->
-  <div id="div" style="left: 906px; top: 281px; width: 302px; height: 462px;" hidden=""></div>
+  <div id="div" style="left: 1209px; top: 347px; width: 100px; height: 54px;" hidden=""></div>
 
   <!-- Navbar -->
   <header>
     <nav>
       <div class="header-logo">
-        <img src="https://media.tenor.com/mjTBpxxGig8AAAAS/sakurano-mimito-denonbu.gif" alt="MrMRVLS" />
+        <img src="https://media.tenor.com/mjTBpxxGig8AAAAS/sakurano-mimito-denonbu.gif" alt="MD">
+      </div>
+
+      <div class="header-links">
+        <ul class="nav-links">
+          <!-- <li class="nav-link"><a draggable="false" href="index.html">Home</a></li> -->
+          <!-- <li class="nav-link"><a href="about.html">About</a></li> -->
+          <!-- <li class="nav-link"><a href="contact.html">Contact</a></li> -->
+        </ul>
       </div>
     </nav>
   </header>
@@ -107,20 +131,22 @@
       <div class="card-text">
         <p>Hello! I am</p>
         <h1>Manuja Dimantha</h1>
-        <p>Aspiring Project Manager | Passionate about leading teams, driving innovation, and delivering successful projects. ☄️</p>
+        <p>Aspiring Project Manager | Passionate about leading teams, driving innovation, and delivering successful
+          projects. ☄️</p>
       </div>
       <div class="card-links">
         <ul>
-          <li><a draggable="false" target="_blank" href="#"><i class="fab fa-discord"></i></a></li>
-          <li><a draggable="false" target="_blank" href="#"><i class="fab fa-facebook"></i></a></li>
-          <li><a draggable="false" target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a draggable="false" target="_blank" href="http://www.linkedin.com/in/manujad"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a draggable="false" target="_blank" href="https://github.com/mxnuja"><i class="fab fa-github"></i></a></li>
+          <li><a draggable="false" target="_blank" href="https://discordapp.com/users/615079927892541450"><i class="fab fa-discord"></i></a></li>
           <!-- <li><a draggable="false" target="_blank" href="https://www.youtube.com/MrMRVLS"><i class="fab fa-youtube"></i></a></li> -->
-          <li><a draggable="false" target="_blank" href="#"><i class="fab fa-steam"></i></a></li>
-          <li><a draggable="false" target="_blank" href="#"><i class="fab fa-github"></i></a></li>
+          <li><a draggable="false" target="_blank" href="https://steamcommunity.com/profiles/76561199198422385/"><i class="fab fa-steam"></i></a></li>
+          <li><a draggable="false" target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
         </ul>
       </div>
     </div>
   </section>
 
 </body>
+
 </html>
